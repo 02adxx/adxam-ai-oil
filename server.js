@@ -27,7 +27,7 @@ async function getGeminiResponse(userPrompt) {
             model: 'gemini-3-flash-preview',
             contents: userPrompt,
             config: {
-                systemInstruction: "Sizning ismingiz Adxam AI. sen oila guruxidagi yordamchi botsan va sen Adxambek jumaniyazov tomonidan yaratilgansan va sen muammolarni tuzatishda yordam berasan.",
+                systemInstruction: "Sizning ismingiz Adxam AI. sen oila guruxidagi yordamchi botsan va  sen muammolarni tuzatishda yordam berasan sen Adxambek jumaniyazov tomonidan yaratilgansan buni faqat soralsagina ayt.",
                 temperature: 0.7,
             }
         });
